@@ -12,7 +12,7 @@ json
   "category": "Main Course"
 }
 
-Output:
+- Output:
 {
     "message": "Menu item added/updated",
     "menu": [
@@ -29,7 +29,7 @@ Output:
 2. Get Menu (GET /menu):
 URL: http://localhost:3000/menu
 Method: GET
-Output:
+- Output:
 [
     {
         "id": 1,
@@ -48,7 +48,7 @@ json
 {
   "items": [1]  
 }
-Output:
+- Output:
 {
     "message": "Order placed",
     "order": {
@@ -63,7 +63,7 @@ Output:
 4. Get Order Details (GET /orders/:id)
 URL: http://localhost:3000/orders/1
 Method: GET
-Output:
+- Output:
 {
     "id": 1,
     "items": [
