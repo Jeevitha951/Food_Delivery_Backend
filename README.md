@@ -2,10 +2,10 @@
 
 # Testing the APIs with Postman: 
 1. AddMenuItem (POST /menu)
-URL: http://localhost:3000/menu
-Method: POST
-Body (JSON):
-json
+- URL: http://localhost:3000/menu
+- Method: POST
+- Body (JSON):
+- json
 {
   "name": "Pizza",
   "price": 200,
@@ -27,8 +27,8 @@ json
 
 
 2. Get Menu (GET /menu):
-URL: http://localhost:3000/menu
-Method: GET
+- URL: http://localhost:3000/menu
+- Method: GET
 - Output:
 [
     {
@@ -41,10 +41,10 @@ Method: GET
 
 
 3. Place Order (POST /orders):
-URL: http://localhost:3000/orders
-Method: POST
-Body (JSON):
-json
+- URL: http://localhost:3000/orders
+- Method: POST
+- Body (JSON):
+- json
 {
   "items": [1]  
 }
@@ -61,8 +61,8 @@ json
 }
 
 4. Get Order Details (GET /orders/:id)
-URL: http://localhost:3000/orders/1
-Method: GET
+- URL: http://localhost:3000/orders/1
+- Method: GET
 - Output:
 {
     "id": 1,
@@ -72,7 +72,7 @@ Method: GET
     "status": "Out for Delivery"
 }
 
-{
+- {
     "id": 1,
     "items": [
         1
